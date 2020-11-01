@@ -214,13 +214,19 @@ You can use the default Breeze configuration as follows:
 
    mkvirtualenv myenv --python=python3.6
 
-5. Initialize the created environment:
+5. Install dependencies:
+
+.. code-block:: bash
+
+   pip install -e .
+
+6. Initialize the created environment:
 
 .. code-block:: bash
 
    ./breeze initialize-local-virtualenv --python 3.6
 
-6. Open your IDE (for example, PyCharm) and select the virtualenv you created
+7. Open your IDE (for example, PyCharm) and select the virtualenv you created
    as the project's default virtualenv in your IDE.
 
 Step 3: Connect with People
